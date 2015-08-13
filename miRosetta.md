@@ -4,13 +4,24 @@
 
 ### ChucK
 
-```C
+```java
 FileIO file;
-file.open(me.dir() + "<path>", FileIO.WRITE);
-// ----- haga algo
-file.write(1);
-file.write(0);
+file.open(me.dir() + "<PATH>", FileIO.WRITE);
+    file.write(1);
+    file.write(0);
 file.close();
+```
+
+
+
+### Bash
+
+```C
+    du -h foo.wav # Tamaño de un archivo
+
+
+
+    
 ```
 
 
