@@ -14,9 +14,12 @@ file.close();
 
 ### Bash
 
-```Batchfile
-du -h foo.wav # muestra el tamaño de un archivo
-head foo.wav # lee los encabezados
+```python
+#!/bin/bash
+# muestra el tamaño de un archivo
+du -h foo.wav 
+# lee los encabezados
+head foo.wav 
 
 
 
