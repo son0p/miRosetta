@@ -12,12 +12,11 @@ file.open(me.dir() + "<PATH>", FileIO.WRITE);
 file.close();
 ```
 
-
-
 ### Bash
 
-```C
-    du -h foo.wav # Tamaño de un archivo
+```Batchfile
+du -h foo.wav # muestra el tamaño de un archivo
+head foo.wav # lee los encabezados
 
 
 
