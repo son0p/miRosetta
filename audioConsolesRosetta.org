@@ -1,0 +1,32 @@
+# best if open on org-mode (emacs)
+
+Same task different consoles
+
+===Conventions===
+[BUTTON]
+<user choice>
+[SEL] Select
+CS Control Surface
+[A] Attention button in S6L
+[A][A] Doubble click
+
+
+* VCA assignment & spill
+
+** AVID S6L
+  Select VCA;                  [A]<VCA> 
+  Add members ;                CS[MULTI ASSIGN MODE]/ L[A]<members> 
+  Finnish ;                    CS[OK]
+  Spill ;                      [A][A]<vca>
+  Verify members;              screen [OUTPUTS] [A] <vca>
+  See all VCA's;               CS[VCA's]
+  add member fader (knob)      CS [VCA's] / [A]<vca> / [SEL]<vca>
+
+* Mute Groups 
+
+** AVID 
+
+*** S6L 
+Select Mute Group;          Uscreen[A]<muteGroup>
+Add members;                CS[MULTI ASSIGN] or Uscreen[MULTI ASSIGN]<members>
+Finish;                     CS[OK]
