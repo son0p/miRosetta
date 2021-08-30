@@ -23,7 +23,7 @@ text to paste
 (setq smtpmail-smtp-service 465)
 (progn
   (mail)
-  (compose-mail "fede2001@gmail.com" subject nil nil nil nil nil nil)
+  (compose-mail "yourMail@domain.com" subject nil nil nil nil nil nil)
   (mail-text) (insert paste)
   (mml-attach-file fpath "text/x-patch" nil "attachment")
   (mail-send)
